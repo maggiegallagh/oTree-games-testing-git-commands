@@ -63,12 +63,12 @@ class SummationGrid(Page):
             return dict(
                image_path='summation_grid_task/{}.png'.format(20 + self.round_number)
              )
-
+        
     def before_next_page(self):
         self.group.check_sum()
         self.group.count_correct_rounds()
 
-
+        
 # class ResultsWaitPage(WaitPage):
 #     def after_all_players_arrive(self):
 #         self.group.check_sum()
