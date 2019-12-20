@@ -92,6 +92,6 @@ page_sequence = [
     Start,
     StartRoundTwo,
     SummationGrid,
-    # ResultsWaitPage,
+#     ResultsWaitPage,
     Results,
 ]
